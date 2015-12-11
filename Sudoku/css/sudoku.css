@@ -28,82 +28,81 @@
 /* CSS Document */
 
 
-.sqrt{
-	float:left;
-	background-color:#FF8F32; /*#DADADA;*/
-	z-index:20;
-	border:groove 2px #CCCCCC;
-	overflow:hidden;
-	position:absolute;
-	width:46px;
-	height:46px;
+.sqrt {
+	float : left;
+	background-color : #FF8F32; /*#DADADA;*/
+	z-index : 20;
+	border : groove 2px #CCCCCC;
+	overflow : hidden;
+	position : absolute;
+	width : 46px;
+	height : 46px;
 	}	
 .sqrt div {
-	padding: 30% 50% 50% 40%;
+	padding : 30% 50% 50% 40%;
 	}	
-.sqrtValide{
+.sqrtValide {
 	
-	background-color:#ECDFD3;
+	background-color : #ECDFD3;
 	}	
 	
 
 #sudoku div.ui-draggable-dragging , #numb div.ui-draggable-dragging {
-  -moz-box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
-  -webkit-box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
-  box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+  -moz-box-shadow : 0 0 .5em rgba(0, 0, 0, .8);
+  -webkit-box-shadow : 0 0 .5em rgba(0, 0, 0, .8);
+  box-shadow : 0 0 .5em rgba(0, 0, 0, .8);
  
   }	
 
-#numb{
-	width:50px;
-	z-index:130;
-	float:right;
-	color:#FFF;
+#numb {
+	width : 50px;
+	z-index : 130;
+	float : right;
+	color : #FFF;
 	} 
-#numb .sqrt{
-	background-color:#C60;
-	z-index:40;
-	position:relative ;
-	
+#numb .sqrt {
+	background-color : #C60;
+	z-index : 40;
+	position : relative ;
 	}	
 
-#sudoku{
-	position:relative ;
+#sudoku {
+	position : relative ;
 	  
 	}	 
-#controleSudoku{
-	position:absolute; 
-	bottom:2px;
+#controleSudoku {
+	position : absolute; 
+	bottom : 2px;
 	}  
 	
-#containerSudoku{
-	width:510px;
-	height:540px;
-	margin:auto;
-	position:relative;
+#containerSudoku {
+	width : 510px;
+	height : 540px;
+	margin : auto;
+	position : relative;
 	
 	}
   
-#success_msg{
-	   top:20%;
-	   left:50%;
-	   width:0px;
-	   height:0px;
-	   position:fixed;
-	   z-index:200;
-	   background-color:#F63;
-	   border:solid 2px #CCCCCC;
-	   padding: 15px;
+#success_msg {
+	   top : 20%;
+	   left : 50%;
+	   width : 0px;
+	   height : 0px;
+	   position : fixed;
+	   z-index : 200;
+	   background-color : #F63;
+	   border : solid 2px #CCCCCC;
+	   padding : 15px;
 	  }	
-#cache{
-	z-index:160;
-	position:fixed;
-	background-color:#FFF;
-	width:100%;
-	height:100%;
-	top:0px;
-	left:0px;
-	opacity:0.8;
+#cache {
+	z-index : 160;
+	position : fixed;
+	background-color : #FFF;
+	width : 100%;
+	height : 100%;
+	top : 0px;
+	left : 0px;
+	opacity : 0.8;
 	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=80) !important;
 	
 	}	
