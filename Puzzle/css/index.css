@@ -1,0 +1,102 @@
+/*
+		The aim of this puzzle is to reconstruct an image.
+		Author = "Abdelmouneim Hanine <sup3rnova.m0nster@gmail.com>"
+		URL = https://github.com/abdelmouneim/
+		LICENSE = {
+	
+		Copyright (c) 2016 Abdelmouneim Hanine <sup3rnova.m0nster@gmail.com>
+		Permission is hereby granted, free of charge, to any person obtaining a copy
+		of this software and associated documentation files (the "Software"), to deal
+		in the Software without restriction, including without limitation the rights
+		to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+		copies of the Software, and to permit persons to whom the Software is
+		furnished to do so, subject to the following conditions:
+		The above copyright notice and this permission notice shall be included in
+		all copies or substantial portions of the Software.
+		THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+		IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+		FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE
+		AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+		LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+		OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+		THE SOFTWARE.	
+			}	
+		
+*/
+
+/*Puzzle*/
+body {
+	margin:0;
+	}
+button {
+	margin-right: 0em !important;
+	padding: 0em !important;
+	}
+#puzzle{
+	margin:auto;
+	/*background-image:url(../img/motor.jpg);
+	opacity:0.1;*/
+	position:relative;
+	  
+	}
+#puzzleContainer {
+	width : 510px;
+	height : 580px;
+	margin : auto;
+	position : relative;
+	}
+
+#controle_puzzle{
+	position : absolute; 
+	bottom : 2px;
+	}	
+	
+#img_puzzle{
+	 opacity:0.3;
+	 z-index:10; 
+	 position:absolute;
+	
+	}
+
+.sqrt_puzzle{
+	float:left;
+	
+	/*background-image:url(../img/motor.jpg);*/
+	z-index:20;
+	border:groove 2px #CCCCCC;
+	overflow:hidden;
+	position:absolute;
+	
+	}
+#puzzle div.ui-draggable-dragging {
+  -moz-box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+  box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+  width:200px;
+  height:200px;
+  }	
+
+#success_msg{
+	   top:20%;
+	   left:50%;
+	   width:0px;
+	   height:0px;
+	   position:fixed;
+	   z-index:200;
+	   color : #F0F8FF;
+	   background-color:#F33;
+	   border:solid 2px #CCCCCC;
+	   padding: 15px;
+	  }
+	
+#cache{
+	z-index:160;
+	width:100%;
+	height:100%;
+	
+	opacity:0.8;
+	background-color:#FFF;
+	position:absolute;
+	
+	}	
+	
